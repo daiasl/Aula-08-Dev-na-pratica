@@ -1,9 +1,9 @@
 <div class="sideNav">
-  <ul class="nav">
-    <li *ngFor="let item of items">
-      <a [routerLink]="item.routerLink" routerLinkActive="active-link">
-        <p>{{item.label}}</p>
-      </a>
+  <div class="nav">
+    <li *ngFor="let item of list">
+      <a [routerLink]="item.routerLink" routerLinkActive="active-link">{{
+        item.label
+      }}</a>
     </li>
-  </ul>
+  </div>
 </div>

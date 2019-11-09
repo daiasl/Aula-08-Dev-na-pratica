@@ -1,16 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FeaturesRouterModule } from './features.routing';
+import { FeaturesRoutingModule } from './features.routing';
 import { RouterModule } from '@angular/router';
+import { ClienteModule } from './cliente/cliente.module';
+import { ItemsModule } from './items/items.module';
 
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule,
-    FeaturesRouterModule,
-  ],
-  exports: [
-    RouterModule
-  ]
+  imports: [CommonModule, FeaturesRoutingModule, ClienteModule, ItemsModule],
+  exports: [RouterModule]
 })
-export class FeaturesModule { }
+export class FeaturesModule {}

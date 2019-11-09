@@ -5,4 +5,14 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
+  items = [
+    {
+      label: 'Cliente',
+      routerLink: '/clientes'
+    },
+    {
+      label: 'Items',
+      routerLink: '/items'
+    }
+  ];
 }

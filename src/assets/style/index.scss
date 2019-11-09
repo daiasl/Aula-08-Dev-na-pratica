@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./components/top-bar/index.scss";
+
+
 body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #f5f7f8;
@@ -9,14 +12,6 @@ body {
   text-align: center;
 }
 
-.navBar {
-  background-color: #273033;
-  height: 4rem;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
-  display: block;
-  z-index: 99;
-  position: relative;
-}
 
 .sideNav {
   position: fixed;

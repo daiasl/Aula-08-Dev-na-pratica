@@ -1,26 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-side-nav',
-  templateUrl: './side-nav.component.html',
-  styleUrls: ['./side-nav.component.scss']
+  templateUrl: './side-nav.component.html'
 })
 export class SideNavComponent implements OnInit {
+  @Input() list;
 
-  items = [
-    {
-      label: 'Cliente',
-      routerLink: '/clientes'
-    },
-    {
-      label: 'Items',
-      routerLink: '/items'
-    }
-  ];
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

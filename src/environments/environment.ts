@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   BASE_URL: 'https://arq.senior.com.br:8243/t/senior.com.br/bridge/1.0',
-  TOKEN: '02cb99c4-c156-3f35-a8b1-cf359d5da296'
+  TOKEN: '77636648ce075a07a1fd8df8b6775532'
 };
 
 /*
